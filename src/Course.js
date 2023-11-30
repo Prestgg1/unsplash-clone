@@ -14,9 +14,9 @@ function Course({search}) {
 
     return (
         <>
-            <form onSubmit={handleseach} className="flex flex-col w-4/5 border-2 m-3 p-3 rounded-lg" action="">
-                <label>What are you looking for?</label>
-                <input value={value} onChange={oncha} className="border-2 border-blue-900 outline-none" type="text" />
+            <form onSubmit={handleseach} className="flex flex-col w-4/5 gap-2 border-2 m-3 p-3 rounded-lg" action="">
+                <label className="font-bold">What are you looking for?</label>
+                <input placeholder="Write Something" value={value} onChange={oncha} className="text-4xl font-medium rounded-md p-1 border-2 border-gray-900 outline-none" type="text" />
             </form>
         </>
 

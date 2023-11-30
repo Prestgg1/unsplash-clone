@@ -18,9 +18,10 @@ function App() {
   return (
     <div className="App flex justify-center items-center flex-col">
       <Course search={handleclick}/>
-      <div className="flex w-3/4 flex-wrap gap-4">
+      <div className="flex items-center justify-center w-full"> 
       <ImagesList netice={image}/>
       </div>
+
 
     </div>
   );
